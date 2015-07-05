@@ -1,0 +1,323 @@
+{
+  "characterName": "",
+  "level": 1,
+  "class": "",
+  "paragonPath": "",
+  "epicDestiny": "",
+  "totalXP": 0,
+  "race": "",
+  "size": "",
+  "age": 20,
+  "gender": "",
+  "height": "6' 1\"",
+  "weight": "220 lbs.",
+  "alignment": "",
+  "deity": "",
+  "adventuringCompany": "",
+  "initiative": {
+    "score": 1,
+    "dex": 10,
+    "halfLevel": 0,
+    "misc": [
+      0
+    ]
+  },
+  "defenses": {
+    "ac": {
+      "score": 10,
+      "tenPlusHalfLevel": 10,
+      "armorAbility": 0,
+      "class": 0,
+      "feat": 0,
+      "enhancement": 0,
+      "misc": [
+        0
+      ]
+    },
+    "fort": {
+      "score": 10,
+      "tenPlusHalfLevel": 10,
+      "armorAbility": 0,
+      "class": 0,
+      "feat": 0,
+      "enhancement": 0,
+      "misc": [
+        0
+      ]
+    },
+    "ref": {
+      "score": 10,
+      "tenPlusHalfLevel": 10,
+      "armorAbility": 0,
+      "class": 0,
+      "feat": 0,
+      "enhancement": 0,
+      "misc": [
+        0
+      ]
+    },
+    "will": {
+      "score": 10,
+      "tenPlusHalfLevel": 10,
+      "armorAbility": 0,
+      "class": 0,
+      "feat": 0,
+      "enhancement": 0,
+      "misc": [
+        0
+      ]
+    }
+  },
+  "movement": {
+    "score": 6,
+    "base": 6,
+    "armor": 0,
+    "item": 0,
+    "misc": [
+      0
+    ]
+  },
+  "senses": {
+    "passiveInsight": {
+      "score": 10,
+      "base": 10,
+      "skillBonus": 0
+    },
+    "passivePerception": {
+      "score": 10,
+      "base": 10,
+      "skillBonus": 0
+    }
+  },
+  "abilityStores": {
+    "str": {
+      "score": 10,
+      "abilityModifier": 0,
+      "modPlusHalfLevel": 0
+    },
+    "con": {
+      "score": 10,
+      "abilityModifier": 0,
+      "modPlusHalfLevel": 0
+    },
+    "dex": {
+      "score": 10,
+      "abilityModifier": 0,
+      "modPlusHalfLevel": 0
+    },
+    "int": {
+      "score": 10,
+      "abilityModifier": 0,
+      "modPlusHalfLevel": 0
+    },
+    "wis": {
+      "score": 10,
+      "abilityModifier": 0,
+      "modPlusHalfLevel": 0
+    },
+    "cha": {
+      "score": 10,
+      "abilityModifier": 0,
+      "modPlusHalfLevel": 0
+    }
+  },
+  "hitPoints": {
+    "maxHP": 32,
+    "bloodied": 16,
+    "surgeValue": 8,
+    "surgesPerDay": 10,
+    "secondWindUsed": false,
+    "savingThroughMods": [],
+    "resistances": [],
+    "currentConditionsAndEffects": []
+  },
+  "actionPoints": {
+    "amount": 1
+  },
+  "skills": {
+    "acrobatics": {
+      "score": 0,
+      "ability": "dex",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "arcana": {
+      "score": 0,
+      "ability": "int",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "athletics": {
+      "score": 0,
+      "ability": "str",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "bluff": {
+      "score": 0,
+      "ability": "cha",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "diplomacy": {
+      "score": 0,
+      "ability": "cha",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "dungeoneering": {
+      "score": 0,
+      "ability": "wis",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "endurance": {
+      "score": 0,
+      "ability": "con",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "heal": {
+      "score": 0,
+      "ability": "wis",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "history": {
+      "score": 0,
+      "ability": "int",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "insight": {
+      "score": 0,
+      "ability": "wis",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "intimidate": {
+      "score": 0,
+      "ability": "cha",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "nature": {
+      "score": 0,
+      "ability": "wis",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "perception": {
+      "score": 0,
+      "ability": "wis",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "religion": {
+      "score": 0,
+      "ability": "int",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "stealth": {
+      "score": 0,
+      "ability": "dex",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "streetwise": {
+      "score": 0,
+      "ability": "cha",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    },
+    "thievery": {
+      "score": 0,
+      "ability": "dex",
+      "abilityPlusHalfLevel": 0,
+      "trained": false,
+      "armorPenalty": 0,
+      "misc": []
+    }
+  },
+  "raceFeatures": [],
+  "classFeatures": [],
+  "pathFeatures": [],
+  "destinyFeatures": [],
+  "languagesKnown": [],
+  "feats": [],
+  "baseAttacks": [
+    {
+      "attack": "+6",
+      "against": "ac",
+      "weaponPower": "sword",
+      "damage": "1d10"
+    }
+  ],
+  "powers": {
+    "atWill": [
+      {
+      }
+    ],
+    "encounter": [
+      {
+      }
+    ],
+    "daily": [
+      {
+      }
+    ],
+    "utility": [
+      {
+      }
+    ]
+  },
+  "magicItems": [
+    {
+      "item": "magic sword",
+      "details": "",
+      "used": false
+    }
+  ],
+  "personalityTraits": [],
+  "mannerisms": [],
+  "appearance": [],
+  "characterBackground": [],
+  "companionsAndAllies": [],
+  "otherEquipment": [],
+  "rituals": [],
+  "sessionAndCampaignNotes": [],
+  "coinsAndOtherWealth": []
+}
