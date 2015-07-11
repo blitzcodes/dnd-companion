@@ -46,7 +46,7 @@ var Races = [
           actionRequired: 'Minor',
           range: 'Close Blast 3',
           targets: 'All creatures in area',
-          attachWith: ['str', 'con', 'dex'],
+          attackWith: ['str', 'con', 'dex'],
           attackAndDamage: {
             1: {
               attack: {

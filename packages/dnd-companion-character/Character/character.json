@@ -1,16 +1,16 @@
 {
   "characterName": "",
-  "level": 1,
+  "level": 0,
   "class": "",
   "paragonPath": "",
   "epicDestiny": "",
   "totalXP": 0,
   "race": "",
   "size": "",
-  "age": 20,
+  "age": 0,
   "gender": "",
-  "height": "6' 1\"",
-  "weight": "220 lbs.",
+  "height": "",
+  "weight": "",
   "alignment": "",
   "deity": "",
   "adventuringCompany": "",
@@ -131,9 +131,7 @@
     "resistances": [],
     "currentConditionsAndEffects": []
   },
-  "actionPoints": {
-    "amount": 1
-  },
+  "actionPoints": 0,
   "skills": {
     "acrobatics": {
       "score": 0,
