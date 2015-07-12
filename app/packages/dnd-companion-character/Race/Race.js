@@ -1,6 +1,6 @@
 
-var CharacterRace = function (race) {
-  var self = _.defaults(race || {}, {
+let CharacterRace = function (race) {
+  return _.defaults(race || {}, {
     name: '',
     minHeight: '',
     maxHeight: '',
@@ -13,11 +13,9 @@ var CharacterRace = function (race) {
     racialFeats: [],
     racialPowers: []
   });
-
-  return self;
 };
 
-var Races = [
+let Races = [
   CharacterRace({
     name: 'Dragonborn',
     minHeight: '6\' 2"',
@@ -84,3 +82,6 @@ var Races = [
     ]
   })
 ];
+
+export { CharacterRace };
+export default Races;
