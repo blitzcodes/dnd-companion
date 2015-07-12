@@ -17,11 +17,9 @@ Npm.depends({
 
 Package.onUse(function (api) {
   api.versionsFrom('1.1.0.2');
-  api.use(["erasaur:meteor-lodash"],['client,server']);
-  api.addFiles([
-      'dnd-companion-character.js'
-    ],
-    ['client,server']);
+  api.use(["erasaur:meteor-lodash"]);
+  api.addFiles(['dnd-companion-character.es6.js']);
+  api.export('Character');
 });
 
 Package.onTest(function (api) {

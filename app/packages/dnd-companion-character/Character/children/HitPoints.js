@@ -1,3 +1,5 @@
+import AmpersandModel from 'ampersand-model';
+
 /*
  "hitPoints": {
  "maxHP": 32,
@@ -10,7 +12,7 @@
  "currentConditionsAndEffects": []
  },
  */
-HitPoints = AmpersandModel.extend({
+let HitPoints = AmpersandModel.extend({
   props: {
     "maxHP": "number",
     "bloodied": "number",
@@ -23,3 +25,5 @@ HitPoints = AmpersandModel.extend({
   },
   derived: {}
 });
+
+export default HitPoints;

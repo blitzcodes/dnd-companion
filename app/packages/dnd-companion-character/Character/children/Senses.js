@@ -1,3 +1,5 @@
+import AmpersandModel from 'ampersand-model';
+
 /*
  "senses": {
  "passiveInsight": {
@@ -12,7 +14,7 @@
  }
  },
  */
-Sense = AmpersandModel.extend({
+let Sense = AmpersandModel.extend({
   props: {
     "base": "number",
     "skillBonus": "number"
@@ -26,9 +28,13 @@ Sense = AmpersandModel.extend({
     }
   }
 });
-Senses = AmpersandModel.extend({
+
+let Senses = AmpersandModel.extend({
   children: {
     passiveInsight: Sense,
     passivePerception: Sense
   }
 });
+
+export { Sense };
+export default Senses;

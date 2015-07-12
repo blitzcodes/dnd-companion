@@ -1,5 +1,5 @@
 
-var Alignment = {
+let Alignment = {
   "good": "Freedom and kindness",
   "lawfulGood": "Civilization and order",
   "evil": "Tyranny and hatred",
@@ -7,7 +7,7 @@ var Alignment = {
   "unaligned": "Having no alignment; not taking a stand"
 };
 
-var Deities = [
+let Deities = [
   {
     "name": "Avandra",
     "alignment": "good",
@@ -28,7 +28,7 @@ var Deities = [
   }
 ];
 
-var Languages = {
+let Languages = {
   "common": {
     "spokenBy": ['Human', 'Halfing', 'Theflings'],
     "script": "Common"
@@ -69,4 +69,10 @@ var Languages = {
     "spokenBy": ['Demons', 'Gnolls', 'Sahuagin'],
     "script": "Barazhad"
   }
+};
+
+export default {
+  Alignment:Alignment,
+  Deities:Deities,
+  Languages: Languages
 };

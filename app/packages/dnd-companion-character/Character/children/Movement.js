@@ -1,3 +1,5 @@
+import AmpersandModel from 'ampersand-model';
+
 /*
  "movement": {
  "score": 6,
@@ -9,7 +11,7 @@
  ]
  },
  */
-Movement = AmpersandModel.extend({
+let Movement = AmpersandModel.extend({
   props: {
     "base": "number",
     "armor": "number",
@@ -25,3 +27,5 @@ Movement = AmpersandModel.extend({
     }
   }
 });
+
+export default Movement;

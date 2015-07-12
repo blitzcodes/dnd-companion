@@ -1,3 +1,5 @@
+import AmpersandModel from 'ampersand-model';
+
 /*
  "defenses": {
  "ac": {
@@ -46,7 +48,7 @@
  }
  },
  */
-Defense = AmpersandModel.extend({
+let Defense = AmpersandModel.extend({
   "props": {
     "tenPlusHalfLevel": "number",
     "armor": "number",
@@ -66,7 +68,7 @@ Defense = AmpersandModel.extend({
   }
 });
 
-Defenses = AmpersandModel.extend({
+let Defenses = AmpersandModel.extend({
   children: {
     "ac": Defense,
     "fort": Defense,
@@ -74,3 +76,6 @@ Defenses = AmpersandModel.extend({
     "will": Defense
   }
 });
+
+export { Defense };
+export default Defenses;

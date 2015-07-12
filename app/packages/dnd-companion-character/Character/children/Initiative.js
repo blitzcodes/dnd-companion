@@ -1,4 +1,6 @@
-Initiative = AmpersandModel.extend({
+import AmpersandModel from 'ampersand-model';
+
+let Initiative = AmpersandModel.extend({
   props: {
     "dex": "number",
     "halfLevel": "number",
@@ -13,3 +15,5 @@ Initiative = AmpersandModel.extend({
     }
   }
 });
+
+export default Initiative;

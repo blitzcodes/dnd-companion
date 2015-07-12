@@ -1,3 +1,5 @@
+import AmpersandModel from 'ampersand-model';
+
 /*
  "skills": {
  "acrobatics": {
@@ -138,7 +140,7 @@
  }
  },
  */
-Skill = AmpersandModel.extend({
+let Skill = AmpersandModel.extend({
   props: {
     "ability": "string",
     "abilityPlusHalfLevel": "number",
@@ -159,7 +161,7 @@ Skill = AmpersandModel.extend({
   }
 });
 
-Skills = AmpersandModel.extend({
+let Skills = AmpersandModel.extend({
   children: {
     "acrobatics": Skill,
     "arcana": Skill,
@@ -180,3 +182,6 @@ Skills = AmpersandModel.extend({
     "thievery": Skill
   }
 });
+
+export {Skill};
+export default Skills;

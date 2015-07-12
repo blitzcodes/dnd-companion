@@ -1,5 +1,4 @@
-
-var Leveling = function (character) {
+let Leveling = function (character) {
   var newLevel;
 
   var levels = {
@@ -35,7 +34,7 @@ var Leveling = function (character) {
     1: 0
   };
 
-  _.each(levels, function (xp, level) {
+  levels.forEach(function (xp, level) {
     if (character.totalXP >= xp && character.level < level) {
       character.level = newLevel = level;
     }
@@ -53,7 +52,7 @@ var Leveling = function (character) {
         break;
       case 11:
       case 21:
-        _.each(character.abilityScores, function (ability) {
+        character.abilityScores.forEach(function (ability) {
           ability.score += 1;
         });
         break;
@@ -110,3 +109,5 @@ var Leveling = function (character) {
     }
   }
 };
+
+export default Leveling;

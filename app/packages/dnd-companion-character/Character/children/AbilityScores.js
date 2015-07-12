@@ -1,3 +1,5 @@
+import AmpersandModel from 'ampersand-model';
+
 /*
  "abilityStores": {
  "str": {
@@ -32,7 +34,7 @@
  }
  },
  */
-Ability = AmpersandModel.extend({
+let Ability = AmpersandModel.extend({
   props: {
     "score": {"type": "number", "default": 10}
   },
@@ -63,7 +65,7 @@ Ability = AmpersandModel.extend({
   }
 });
 
-AbilityStores = AmpersandModel.extend({
+let AbilityStores = AmpersandModel.extend({
   children: {
     str: Ability,
     con: Ability,
@@ -73,3 +75,6 @@ AbilityStores = AmpersandModel.extend({
     cha: Ability
   }
 });
+
+export { Ability };
+export default AbilityStores

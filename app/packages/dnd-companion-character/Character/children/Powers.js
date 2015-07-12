@@ -1,3 +1,6 @@
+import AmpersandModel from 'ampersand-model';
+import AmpersandCollection from 'ampersand-collection';
+
 /*
  {
  type: 'Encounter',
@@ -40,19 +43,19 @@
  }
  }
  */
-PowerEffectAttack = AmpersandModel.extend({
+let PowerEffectAttack = AmpersandModel.extend({
   props: {
     modifier: 2,
     against: 'ac'
   }
 });
-PowerEffectDamage = AmpersandModel.extend({
+let PowerEffectDamage = AmpersandModel.extend({
   props: {
     dice: '1d6',
     modifier: 'con'
   }
 });
-PowerEffect = AmpersandModel.extend({
+let PowerEffect = AmpersandModel.extend({
   props: {
     effect: "string"
   },
@@ -62,11 +65,11 @@ PowerEffect = AmpersandModel.extend({
   }
 });
 
-PowerEffectCollection = AmpersandCollection.extend({
+let PowerEffectCollection = AmpersandCollection.extend({
   model: PowerEffect
 });
 
-Power = AmpersandModel.extend({
+let Power = AmpersandModel.extend({
   props: {
     type: "string",
     damageType: "array",
@@ -81,9 +84,9 @@ Power = AmpersandModel.extend({
   }
 });
 
-PowerCollection = AmpersandCollection.extend({});
+let PowerCollection = AmpersandCollection.extend({});
 
-Powers = AmpersandModel.extend({
+let Powers = AmpersandModel.extend({
   children: {
     "atWill": PowerCollection,
     "encounter": PowerCollection,
@@ -91,3 +94,6 @@ Powers = AmpersandModel.extend({
     "utility": PowerCollection
   }
 });
+
+export { Power, PowerCollection, PowerEffect, PowerEffectCollection };
+export default Powers;

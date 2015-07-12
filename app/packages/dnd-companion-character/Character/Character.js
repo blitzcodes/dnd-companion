@@ -1,4 +1,16 @@
-Character = AmpersandModel.extend({
+import AmpersandModel from 'ampersand-model';
+import Initiative from './children/Initiative';
+import Defenses from './children/Defences';
+import Movement from './children/Movement';
+import Senses from './children/Senses';
+import AbilityStores from './children/AbilityScores';
+import HitPoints from './children/HitPoints';
+import Skills from './children/Skills';
+
+import Leveling from './leveling';
+import Options from './options';
+
+let Character = AmpersandModel.extend({
   props: {
     "name": "string",
     "level": "number",
@@ -59,3 +71,5 @@ Character = AmpersandModel.extend({
     }
   }
 });
+
+export default Character;
